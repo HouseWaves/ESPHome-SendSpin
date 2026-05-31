@@ -1,0 +1,19 @@
+{
+  "name": "HouseWaves HW-One",
+  "version": "1.00.002",
+  "home_assistant_domain": "esphome",
+  "funding_url": "https://getHouseWaves.com",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://github.com/HouseWaves/ESPHome-SendSpin/releases/download/v1.00.002/hw1-firmware.factory.bin",
+          "offset": 0,
+          "md5": "1E0C7705F007A3C618EF2E0ECE6661B209CC4522665859C9BB0A697C3680E8DF"
+        }
+      ]
+    }
+  ]
+}
