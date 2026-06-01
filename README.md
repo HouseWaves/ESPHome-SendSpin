@@ -9,13 +9,10 @@ the private build repo.
 ```
 manifests/
   hw1/
-    installer-manifest.json   ← used ONCE by the browser (ESP Web Tools, USB first flash)
     ota-manifest.json         ← baked into firmware; device polls this URL over Wi-Fi forever
   hw2/                        ← placeholder, populate when firmware is ready
-    installer-manifest.json
     ota-manifest.json
   hw3/
-    installer-manifest.json
     ota-manifest.json
 ```
 
@@ -23,7 +20,6 @@ Both manifests reference the **same firmware binary**. The distinction is who re
 
 | Manifest | Who reads it | When |
 |---|---|---|
-| `installer-manifest.json` | Browser (ESP Web Tools) | First-time USB flash only |
 | `ota-manifest.json` | Device firmware | Every Wi-Fi update check, forever |
 
 The `ota-manifest.json` URL is baked into the firmware at compile time via the
