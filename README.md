@@ -1,6 +1,6 @@
 # housewaves-firmware
 
-ESPHome and SendSpin firmware  repo for HouseWaves Home Assistantspeakers.
+ESPHome with SendSpin firmware repo for HouseWaves Home Assistant speakers.
 
 This repo holds compiled firmware binaries (attached to GitHub Releases) and
 the two manifest files each model needs. Source YAML and build scripts live in
