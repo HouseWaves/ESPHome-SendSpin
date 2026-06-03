@@ -1,11 +1,11 @@
 {
   "name": "HouseWaves HW-One",
-  "version": "1.01.00",
+  "version": "1.02.00",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "md5": "1E0C7705F007A3C618EF2E0ECE6661B209CC4522665859C9BB0A697C3680E8DF",
+        "md5": "5E4EE5F50078DC4E773ED73A492FAFAF9D06243282047F71A3319A70141E3E71",
         "path": "https://github.com/HouseWaves/ESPHome-SendSpin/releases/download/v1.01.00/hw1-firmware.factory.bin"
       }
     }
