@@ -1,0 +1,13 @@
+{
+  "name": "HouseWaves HW-Two",
+  "version": "1.02.00",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "ota": {
+        "md5": "D502C4755FB9AEBA6DCA6DEF19759C54C9FD85066D8A355D85B0C43AFBD7C370",
+        "path": "https://github.com/HouseWaves/ESPHome-SendSpin/releases/download/v1.01.00/hw2-firmware.factory.bin"
+      }
+    }
+  ]
+}
